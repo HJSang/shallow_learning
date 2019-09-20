@@ -282,7 +282,7 @@ int main()
 } 
 ```
 
-## Delete
+## [Delete](https://www.geeksforgeeks.org/k-dimensional-tree-set-3-delete/)
 * If current node contains the point to be deleted
   * If node to be deleted is a leaf node, simply delete it (Same as BST Delete)
   * If node to be deleted has right child as not NULL (Different from BST)
