@@ -295,8 +295,7 @@ int main()
 * If current doesn’t contain the point to be deleted
   * If node to be deleted is smaller than current node on current dimension, recur for left subtree.
   * Else recur for right subtree.
-
-  ```
+```
   // A C++ program to demonstrate delete in K D tree 
 #include<bits/stdc++.h> 
 using namespace std; 
