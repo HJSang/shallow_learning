@@ -17,4 +17,5 @@ The result is a new global log-bilinear regression model that combines the advan
 <img src="http://latex.codecogs.com/gif.latex?J=\sum_{i,j=1}^V f(X_{ij}) (w_i^T\tilde{w}_j + b_i+\tilde{b}_j - \log{X_{ij}})^2" border="0"/>
 
 * <img src="http://latex.codecogs.com/gif.latex?f(X)" border="0"/> is a weighting function. <img src="http://latex.codecogs.com/gif.latex?f(x) = (x/x_{max})^{\alpha} \quad \text{if} \quad x< x_{max}" border="0"/>, otherwise f(x)=1.
+* <img src="http://latex.codecogs.com/gif.latex? b_i" border="0"/> is a bias for <img src="http://latex.codecogs.com/gif.latex? w_i" border="0"/>.
 
