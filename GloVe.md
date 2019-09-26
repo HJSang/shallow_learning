@@ -14,4 +14,4 @@ The result is a new global log-bilinear regression model that combines the advan
 * \tilde{w}: separate context word vector
 
 ## Objective Function
-<img src="http://latex.codecogs.com/gif.latex?1+sin(x)" border="0"/>
+<img src="http://latex.codecogs.com/gif.latex?J=\sum_{i,j=1}^V f(X_{ij}) (w_i^T\tilde{w}_j + b_i+\tilde{d}_j - \log X_{ij})^2" border="0"/>
